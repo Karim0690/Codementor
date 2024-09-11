@@ -1,0 +1,86 @@
+.hero {
+  background-image: linear-gradient(294deg, #006080, #006181 47%, #003648);
+  position: relative;
+  overflow: hidden;
+}
+
+.herobtn {
+  color: rgb(255, 255, 255);
+  height: 56px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 0px 32px;
+  opacity: 1;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 16px;
+  color: #666;
+}
+
+ul li span {
+  margin-right: 10px;
+  font-size: 20px;
+  color: rgb(82, 168, 189);
+}
+
+.cards img {
+  filter: invert(100%) sepia(0%) saturate(4949%) hue-rotate(12deg)
+    brightness(79%) contrast(76%);
+  width: 20px;
+  height: 20px;
+}
+
+.dev-1,
+.dev-4 {
+  transform: translateY(-16px);
+}
+
+.icon-wrapper {
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-style {
+  color: rgb(204, 204, 204);
+  font-size: 24px;
+}
+.css-1mppdht-MuiCardContent-root:last-child {
+  padding-bottom: 0px !important;
+}
+
+@media (max-width: 769px) {
+  .hero h1 {
+    font-size: 34px !important;
+  }
+  .herobtn {
+    margin-top: 0px !important;
+  }
+  .featuerimg {
+    width: 415px !important;
+    height: 200px !important;
+  }
+  .featuercontainer {
+    top: 420px !important;
+  }
+  .dev-1,
+  .dev-4 {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 426px) {
+  .headerbtns {
+    display: none !important;
+  }
+  .featuercontainer {
+    top: 450px !important;
+  }
+}
