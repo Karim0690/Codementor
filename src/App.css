@@ -80,7 +80,11 @@ ul li span {
   .headerbtns {
     display: none !important;
   }
+  .featuerimg {
+    width: 375px !important;
+    height: 200px !important;
+  }
   .featuercontainer {
-    top: 450px !important;
+    top: 460px !important;
   }
 }

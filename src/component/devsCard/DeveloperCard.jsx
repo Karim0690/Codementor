@@ -16,8 +16,8 @@ export default function DeveloperCard({
       <Card
         className={className}
         sx={{
-          maxWidth: 345,
-          width: "345px",
+          maxWidth: 400,
+          width: { xs: "320px", sm: "345px" },
           display: "flex ",
           alignItems: "center",
           textAlign: "left",
@@ -26,9 +26,7 @@ export default function DeveloperCard({
         }}
       >
         <Avatar alt={name} src={avatar} sx={{ width: 100, height: 100 }} />
-        <CardContent
-          sx={{ marginLeft: "20px", padding: "0" }}
-        >
+        <CardContent sx={{ marginLeft: "20px", padding: "0" }}>
           <Typography variant="h5" component="div">
             {name}
           </Typography>

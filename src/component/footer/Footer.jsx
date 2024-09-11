@@ -102,7 +102,7 @@ export default function Footer() {
                   flexDirection: "column",
                   flexWrap: "wrap",
                   maxHeight: { sm: "300px", md: "200px" },
-                  margin: { sm: "0 auto" },
+                  margin: { sm: "0 auto", md: "0" },
                 }}
               >
                 <p
